@@ -4,10 +4,11 @@ Console.WriteLine("Enter INR rupees");
 double INR = Convert.ToDouble(Console.ReadLine());
 
 //converting inr to different Currencies
-double USD = INR * 0.011;
-double CAD = INR * 0.0157;
-double GBP = INR * 0.008365;
-double EUR = INR * 0.009673;
+//Using Math. Round method to round of the values upto 4 places after decimal
+double USD = Math.Round(INR * 0.011, 4);
+double CAD = Math.Round(INR * 0.0157, 4);
+double GBP = Math.Round(INR * 0.008365, 4);
+double EUR = Math.Round(INR * 0.009673, 4);
 
 
 // Printing outputs in 1 line

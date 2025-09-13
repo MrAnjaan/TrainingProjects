@@ -1,0 +1,26 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Assignment2__Student_Marks_Analyser
+{
+    internal class Student
+    {
+        public string name;
+        public int[] marks = new int[5];
+        public int total
+        {
+            get
+            {
+                int sum = 0;
+                foreach (var mark in marks)
+                {
+                    sum += mark;
+                }
+                return sum;
+            }
+        }
+    }
+}

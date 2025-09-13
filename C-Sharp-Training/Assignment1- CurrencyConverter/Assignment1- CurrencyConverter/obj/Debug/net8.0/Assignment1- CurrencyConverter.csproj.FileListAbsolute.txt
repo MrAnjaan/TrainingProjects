@@ -12,3 +12,4 @@ D:\TrainingProjects\C-Sharp-Training\Assignment1- CurrencyConverter\Assignment1-
 D:\TrainingProjects\C-Sharp-Training\Assignment1- CurrencyConverter\Assignment1- CurrencyConverter\obj\Debug\net8.0\Assignment1- CurrencyConverter.pdb
 D:\TrainingProjects\C-Sharp-Training\Assignment1- CurrencyConverter\Assignment1- CurrencyConverter\obj\Debug\net8.0\Assignment1- CurrencyConverter.genruntimeconfig.cache
 D:\TrainingProjects\C-Sharp-Training\Assignment1- CurrencyConverter\Assignment1- CurrencyConverter\obj\Debug\net8.0\ref\Assignment1- CurrencyConverter.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment1- CurrencyConverter\Assignment1- CurrencyConverter\obj\Debug\net8.0\Assignment1- CurrencyConverter.sourcelink.json
