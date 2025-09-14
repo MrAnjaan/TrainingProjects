@@ -229,9 +229,9 @@ foreach(int marks in maxSubjectMarks)
 
 
 // GUESS THE NUMBER GAME
-Console.WriteLine($"For Practical exams, You will have to play Guess the number for practical exam:\n" +
+Console.WriteLine($"\n\nFor Practical exams, You will have to play Guess the number for practical exam:\n" +
     $"You will get {numberOfChances} chances.\nIf you guess in first attempt, you will recieve 100 marks, if you guess in 2nd attempt, you will get 50 marks\n" +
-    $"Otherwise you will fail with 0 marks");
+    $"Otherwise you will fail with 0 marks\n\n");
 
 guessGame(student);
 
