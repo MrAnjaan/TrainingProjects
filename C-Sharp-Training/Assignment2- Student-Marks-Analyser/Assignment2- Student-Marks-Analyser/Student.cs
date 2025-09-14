@@ -9,7 +9,7 @@ namespace Assignment2__Student_Marks_Analyser
     internal class Student
     {
         public string name;
-        public int[] marks = new int[5];
+        public int[] marks = new int[5];// size ni
         public int total
         {
             get
