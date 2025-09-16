@@ -11,14 +11,14 @@ string[] subjects = { "Hindi", "English", "Math", "Science", "Practical" };
 
 
 // FUNCTIONS
-int readMarks(int limit)
+int readMarks()
 {
     int subjectMarks, counter = 0;
     bool isNumber = int.TryParse(Console.ReadLine(), out subjectMarks);
     while (!isNumber || subjectMarks < 0 || subjectMarks > 100)
     {
         // If invalid answers crosses limit
-        if (counter == limit)
+        if (counter == numberOfChances)
         {
             Console.WriteLine("Number of limits exceeded. Marks set to 0");
             subjectMarks = 0;
@@ -27,7 +27,7 @@ int readMarks(int limit)
 
         counter++;
         Console.Write($"\nInvalid input!!\nEnter a non-negative number that must be less than or equal to 100." +
-            $"\nChances Left: {limit - counter}\n" +
+            $"\nChances Left: {numberOfChances - counter}\n" +
             $"After that defualt marks 0 will be alloted.\n\n ");
 
         //Again check if number is valid
@@ -214,7 +214,7 @@ for (int i = 0; i < numberOfStudents; i++)
     for (int j = 0; j < numberOfSubjects - 1; j++)
     {
         Console.WriteLine($"Enter Marks in {subjects[j]}");
-        student[i].marks[j] = readMarks(numberOfChances);
+        student[i].marks[j] = readMarks();
         maxSubjectMarks[j] = Math.Max(student[i].marks[j], maxSubjectMarks[j]);
 
     }
