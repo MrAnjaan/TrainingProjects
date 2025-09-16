@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36429.23 d17.14
+VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2- Student-Marks-Analyser", "Assignment2- Student-Marks-Analyser\Assignment2- Student-Marks-Analyser.csproj", "{BC65A6FA-B21F-435E-BDE6-ACC9E3584A81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2StudentMarksAnalyser", "Assignment2- Student-Marks-Analyser\Assignment2StudentMarksAnalyser.csproj", "{BC65A6FA-B21F-435E-BDE6-ACC9E3584A81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

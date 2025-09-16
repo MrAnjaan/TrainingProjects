@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TrainingProjects\\C-Sharp-Training\\Assignment2- Student-Marks-Analyser\\Assignment2- Student-Marks-Analyser\\Assignment2- Student-Marks-Analyser.csproj",
-      "projectName": "Assignment2- Student-Marks-Analyser",
-      "projectPath": "D:\\TrainingProjects\\C-Sharp-Training\\Assignment2- Student-Marks-Analyser\\Assignment2- Student-Marks-Analyser\\Assignment2- Student-Marks-Analyser.csproj",
+      "projectUniqueName": "D:\\TrainingProjects\\C-Sharp-Training\\Assignment2- Student-Marks-Analyser\\Assignment2- Student-Marks-Analyser\\Assignment2StudentMarksAnalyser.csproj",
+      "projectName": "Assignment2StudentMarksAnalyser",
+      "projectPath": "D:\\TrainingProjects\\C-Sharp-Training\\Assignment2- Student-Marks-Analyser\\Assignment2- Student-Marks-Analyser\\Assignment2StudentMarksAnalyser.csproj",
       "packagesPath": "C:\\Users\\Kishan\\.nuget\\packages\\",
       "outputPath": "D:\\TrainingProjects\\C-Sharp-Training\\Assignment2- Student-Marks-Analyser\\Assignment2- Student-Marks-Analyser\\obj\\",
       "projectStyle": "PackageReference",

@@ -1,0 +1,15 @@
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\bin\Debug\net8.0\Assignment4-ScopeOfClassVariables.exe
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\bin\Debug\net8.0\Assignment4-ScopeOfClassVariables.deps.json
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\bin\Debug\net8.0\Assignment4-ScopeOfClassVariables.runtimeconfig.json
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\bin\Debug\net8.0\Assignment4-ScopeOfClassVariables.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\bin\Debug\net8.0\Assignment4-ScopeOfClassVariables.pdb
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\Assignment4-ScopeOfClassVariables.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\Assignment4-ScopeOfClassVariables.AssemblyInfoInputs.cache
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\Assignment4-ScopeOfClassVariables.AssemblyInfo.cs
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\Assignment4-ScopeOfClassVariables.csproj.CoreCompileInputs.cache
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\Assignment4-ScopeOfClassVariables.sourcelink.json
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\Assignment4-ScopeOfClassVariables.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\refint\Assignment4-ScopeOfClassVariables.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\Assignment4-ScopeOfClassVariables.pdb
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\Assignment4-ScopeOfClassVariables.genruntimeconfig.cache
+D:\TrainingProjects\C-Sharp-Training\Assignment4-ScopeOfClassVariables\Assignment4-ScopeOfClassVariables\obj\Debug\net8.0\ref\Assignment4-ScopeOfClassVariables.dll

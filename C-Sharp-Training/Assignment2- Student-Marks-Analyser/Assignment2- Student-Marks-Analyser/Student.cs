@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment2__Student_Marks_Analyser
+namespace Assignment2StudentMarksAnalyser
 {
     internal class Student
     {

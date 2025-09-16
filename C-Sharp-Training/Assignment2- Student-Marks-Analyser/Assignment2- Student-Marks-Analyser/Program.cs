@@ -1,4 +1,4 @@
-﻿using Assignment2__Student_Marks_Analyser; // USING INTERNAL CLASS
+﻿using Assignment2StudentMarksAnalyser; // USING INTERNAL CLASS
 
 
 int numberOfStudents;  // number of students can be changes from here

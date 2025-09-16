@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment3_PasswordValidator
+namespace Assignment3PasswordValidator
 {
     internal class PasswordValidator
     {
@@ -48,22 +48,8 @@ namespace Assignment3_PasswordValidator
             }
 
             // Atleast 1 sepcial character
-            //bool specialCharFound = false;
-            //foreach (var item in password)
-            //{
-            //    if (!char.IsLetterOrDigit(item))
-            //        specialCharFound = true;
-            //}
-
-            //if (!specialCharFound)
-            //{
-            //    errorMessage = "Password must contain atleast one special character";
-            //    return false;
-            //}
-
-            if (!password.Any(ch => !  char.IsLetterOrDigit(ch)))
+            if (!password.Any(ch => ! char.IsLetterOrDigit(ch)))
             {
-                Console.WriteLine("Failed here");
                 errorMessage = "Password must contain atleast one special case character";
                 return false;
             }
@@ -81,3 +67,25 @@ namespace Assignment3_PasswordValidator
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+//bool specialCharFound = false;
+//foreach (var item in password)
+//{
+//    if (!char.IsLetterOrDigit(item))
+//        specialCharFound = true;
+//}
+
+//if (!specialCharFound)
+//{
+//    errorMessage = "Password must contain atleast one special character";
+//    return false;
+//}

@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TestingForScope/1.0.0": {
+        "dependencies": {
+          "Assignment4-ScopeOfClassVariables": "1.0.0"
+        },
+        "runtime": {
+          "TestingForScope.dll": {}
+        }
+      },
+      "Assignment4-ScopeOfClassVariables/1.0.0": {
+        "runtime": {
+          "Assignment4-ScopeOfClassVariables.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestingForScope/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Assignment4-ScopeOfClassVariables/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
