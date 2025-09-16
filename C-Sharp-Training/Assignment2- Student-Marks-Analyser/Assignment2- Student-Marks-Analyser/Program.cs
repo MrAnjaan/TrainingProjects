@@ -21,8 +21,7 @@ int readMarks()
         if (counter == numberOfChances)
         {
             Console.WriteLine("Number of limits exceeded. Marks set to 0");
-            subjectMarks = 0;
-            break;
+            return 0;
         }
 
         counter++;
