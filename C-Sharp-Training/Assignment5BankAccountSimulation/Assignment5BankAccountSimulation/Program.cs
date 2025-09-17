@@ -9,15 +9,15 @@ namespace Assignment5BankAccountSimulation
         static void Main(string[] args)
         {
             //creating objects 
-            Account KishanAccount = new Account("Account100", "Kishan", 5000); //Some banks (especially internationally or with IBANs) use letters
-            Account VikasAccount = new Account("002233445566", "Vikas", 5000);
-            Account VinayAccount = new Account("112233445577", "Vinay", 4500);
-            Account SimranAccount = new Account("112233445588", "Simran", 17000);
-            Account JagritiAccount = new Account("112233445599", "Jagriti", 17000);
+            Account KishanAccount = new ("Account100", "Kishan", 5200); //Some banks (especially internationally or with IBANs) use letters
+            Account VikasAccount = new ("002233445566", "Vikas", 5000);
+            Account VinayAccount = new ("112233445577", "Vinay", 4500);
+            Account SimranAccount = new ("112233445588", "Simran", 17000);
+            Account JagritiAccount = new("112233445599", "Jagriti", 17000);
 
 
             // creating a list of objects to pass in function
-            List<Account> UserAccounts = new List<Account>() { KishanAccount, VikasAccount, VinayAccount, SimranAccount, JagritiAccount };
+            List<Account> UserAccounts = [KishanAccount, VikasAccount, VinayAccount, SimranAccount, JagritiAccount];
 
             // Variables for switch case
             double amount;
@@ -42,7 +42,7 @@ namespace Assignment5BankAccountSimulation
                         isValidInput = GetAmountInput(out amount);
 
                         if (isValidInput) VikasAccount.Deposit(amount);
-                        
+
                         break;
 
                     // Withdraw Logic
@@ -84,12 +84,13 @@ namespace Assignment5BankAccountSimulation
         }
 
         //Function for inputing and validating the amount input
-        static bool GetAmountInput(out double amount)
+        public static bool GetAmountInput(out double amount)
         {
             Console.WriteLine("\nEnter amount:");
-            if (!double.TryParse(Console.ReadLine(), out amount))
+            string userInput = Console.ReadLine();
+            if (!double.TryParse(userInput, out amount) || amount<0)
             {
-                Console.WriteLine("\nEnter a valid numeric input.\n");
+                Console.WriteLine("\nPlease enter a valid amount.\n");
                 return false;
             }
             return true;

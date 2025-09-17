@@ -9,8 +9,8 @@ namespace Assignment5BankAccountSimulation
 {
     internal class Account
     {
-        public string? AccountNumber { get; set; }
-        public string? HolderName { get; set; }
+        public string AccountNumber { get; set; }
+        public string HolderName { get; set; }
         public double Balance { get; set; }
 
         public void Deposit(double amount)
