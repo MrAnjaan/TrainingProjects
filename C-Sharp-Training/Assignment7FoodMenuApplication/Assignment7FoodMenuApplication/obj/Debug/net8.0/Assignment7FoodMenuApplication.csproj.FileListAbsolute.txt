@@ -1,0 +1,15 @@
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\Assignment7FoodMenuApplication.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\Assignment7FoodMenuApplication.AssemblyInfoInputs.cache
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\Assignment7FoodMenuApplication.AssemblyInfo.cs
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\Assignment7FoodMenuApplication.csproj.CoreCompileInputs.cache
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\Assignment7FoodMenuApplication.sourcelink.json
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\bin\Debug\net8.0\Assignment7FoodMenuApplication.exe
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\bin\Debug\net8.0\Assignment7FoodMenuApplication.deps.json
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\bin\Debug\net8.0\Assignment7FoodMenuApplication.runtimeconfig.json
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\bin\Debug\net8.0\Assignment7FoodMenuApplication.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\bin\Debug\net8.0\Assignment7FoodMenuApplication.pdb
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\Assignment7FoodMenuApplication.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\refint\Assignment7FoodMenuApplication.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\Assignment7FoodMenuApplication.pdb
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\Assignment7FoodMenuApplication.genruntimeconfig.cache
+D:\TrainingProjects\C-Sharp-Training\Assignment7FoodMenuApplication\Assignment7FoodMenuApplication\obj\Debug\net8.0\ref\Assignment7FoodMenuApplication.dll

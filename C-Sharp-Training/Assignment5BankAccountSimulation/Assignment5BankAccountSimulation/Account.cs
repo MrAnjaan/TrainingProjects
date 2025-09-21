@@ -13,28 +13,32 @@ namespace Assignment5BankAccountSimulation
         public string HolderName { get; set; }
         public double Balance { get; set; }
 
-        public void Deposit(double amount)
-        {
-            Balance += amount;
-            Console.WriteLine($"\nDeposit Successfull!!\nAvailable balance- {Balance}");
-
-        }
-
         public Account(string accountNumber, string holderName, double balance)
         {
             this.AccountNumber = accountNumber;
             this.HolderName = holderName;
             this.Balance = balance;
         }
+        public void Deposit(double amount)
+        {
+            Balance += amount;
+            Console.WriteLine($"\nDeposit Successfull!!\nAvailable balance: {Balance}");
+
+        }
+
+        // Withdraw Function
         public void Withdraw(double amount)
         {
             if (Balance < amount)
             {
                 Console.WriteLine("\nInsufficent Balance");
-                return;
+                Console.WriteLine("\nIf you want to re enter the amount, press Y");
+                string userInput = Console.ReadLine();
+                if (userInput.Trim().ToLower() != "y") return;
+                Program.GetAmountInput(out amount);
             }
             Balance -= amount;
-            Console.WriteLine($"\nWithdrawal Successfull!!\nAvailable balance- {Balance}");
+            Console.WriteLine($"\nWithdrawal Successfull!!\nAvailable balance: {Balance}");
         }
 
 
@@ -45,7 +49,10 @@ namespace Assignment5BankAccountSimulation
             if (Balance < amount)
             {
                 Console.WriteLine("\nInsufficent Balance");
-                return;
+                Console.WriteLine("\nIf you want to re enter the amount, press Y");
+                string userInput = Console.ReadLine();
+                if (userInput.Trim().ToLower() != "y") return;
+                Program.GetAmountInput(out amount);
             }
 
 
@@ -58,7 +65,7 @@ namespace Assignment5BankAccountSimulation
                 {
                     this.Balance -= amount;
                     account.Deposit(amount);
-                    Console.WriteLine($"\nAmount: {amount} succesfully transferred to account no.- {receiverAccountNumber}.\nAvailable Balance- {this.Balance}  ");
+                    Console.WriteLine($"\nAmount: {amount} succesfully transferred to account no.- {receiverAccountNumber}.\nAvailable Balance: {this.Balance}  ");
                     return;
                 }
             }
@@ -72,5 +79,6 @@ namespace Assignment5BankAccountSimulation
         {
             Console.WriteLine($"\nYour balance is {Balance}");
         }
+
     }
 }

@@ -1,0 +1,15 @@
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\bin\Debug\net8.0\Assignment6InheritancePractice.exe
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\bin\Debug\net8.0\Assignment6InheritancePractice.deps.json
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\bin\Debug\net8.0\Assignment6InheritancePractice.runtimeconfig.json
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\bin\Debug\net8.0\Assignment6InheritancePractice.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\bin\Debug\net8.0\Assignment6InheritancePractice.pdb
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\Assignment6InheritancePractice.GeneratedMSBuildEditorConfig.editorconfig
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\Assignment6InheritancePractice.AssemblyInfoInputs.cache
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\Assignment6InheritancePractice.AssemblyInfo.cs
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\Assignment6InheritancePractice.csproj.CoreCompileInputs.cache
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\Assignment6InheritancePractice.sourcelink.json
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\Assignment6InheritancePractice.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\refint\Assignment6InheritancePractice.dll
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\Assignment6InheritancePractice.pdb
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\Assignment6InheritancePractice.genruntimeconfig.cache
+D:\TrainingProjects\C-Sharp-Training\Assignment6InheritancePractice\Assignment6InheritancePractice\obj\Debug\net8.0\ref\Assignment6InheritancePractice.dll
