@@ -13,7 +13,5 @@ namespace Assignment7FoodMenuApplication.Enums
         MainCourse = 3,
         Desserts = 4,
         Beverages,
-
-
     }
 }

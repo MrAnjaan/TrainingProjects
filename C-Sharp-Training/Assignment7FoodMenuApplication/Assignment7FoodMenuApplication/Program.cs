@@ -7,6 +7,7 @@
             Console.WriteLine("=== Welcome to Food Menu Console Application ===");
             Console.WriteLine();
 
+            // creating an instance of menu system and starting it
             var menuSystem = new MenuSystem();
             menuSystem.Start();
 

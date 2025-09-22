@@ -28,12 +28,6 @@ namespace Assignment7FoodMenuApplication.Modals
             Console.WriteLine($"Added: {item.Name} to your order");
         }
 
-        
-        // Getting list of items
-        public Dictionary<IFoodItem, int> GetItems()
-        {
-            return new Dictionary<IFoodItem,int> (_items);
-        }
 
 
         // Returns total price Key.price(fooditem.price) * value(qty)
@@ -55,44 +49,8 @@ namespace Assignment7FoodMenuApplication.Modals
         {
             _items.Clear();
         }
-
-        public void CompleteOrder()
-        {
-            Console.WriteLine("\n=== ORDER CONFIRMED ===");
-            DisplayOrderSummary();
-            Console.WriteLine("Thank you for your order! Your food will be prepared shortly.");
-        }
-
-        public void CancelOrder()
-        {
-            Clear();
-            Console.WriteLine("\nOrder has been cancelled successfully.");
-        }
-
-
-        //Diplaying the order summary --- bill
-        //public void DisplayOrderSummary()
-        //{
-        //    Console.WriteLine("\n===== ORDER SUMMARY =====");
-
-        //    if (_items.Count == 0)
-        //    {
-        //        Console.WriteLine("Your order is empty.");
-        //        return;
-        //    }
-
-        //    Console.WriteLine("Items in your order:");
-        //    int i = 1;
-        //    foreach (var item in _items)
-        //    {
-        //        Console.WriteLine($"{i}. {item.Key.GetDisplayInfo()} x {item.Value}");
-        //        i++;
-        //    }
-
-        //    Console.WriteLine($"\nTotal Amount: ${GetTotal():F2}");
-
-        //    Console.WriteLine("===========================\n");
-        //}
+ 
+        //Displays the details of the orders
         public void DisplayOrderSummary()
         {
             Console.WriteLine("\n============================ ORDER SUMMARY ===========================");

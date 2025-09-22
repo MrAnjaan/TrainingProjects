@@ -12,6 +12,5 @@ namespace Assignment7FoodMenuApplication.Interface
     //interface can contain static abstract methods, so that u can declare static methids
         static abstract string GetValidInput(string prompt);
         static abstract int GetValidIntegerInput(string prompt, int min, int max);
-        //static abstract bool ValidateYesNoInput(string input);
     }
 }
