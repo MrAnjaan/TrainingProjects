@@ -34,7 +34,7 @@ namespace Assignment7FoodMenuApplication
             {
                 DisplayMainMenu();  // functions called for displaying main menu
 
-                int choice = InputValidator.GetValidIntegerInput("Enter your choice: ",1,4);
+                int choice = InputValidator.GetValidIntegerInput("Enter your choice: ", 1, 4);
 
                 switch (choice)
                 {
@@ -138,45 +138,41 @@ namespace Assignment7FoodMenuApplication
                 Console.WriteLine($"{items.Count + 1}. Back to Categories");
                 Console.WriteLine("===========================\n");
 
-                string choice = InputValidator.GetValidInput("Enter item number to add to order: ");
 
-                if (int.TryParse(choice, out int itemIndex))  // slect food item index from food menu
+                // Selecting food item from the ;list and adding it to order
+                int itemIndex = InputValidator.GetValidIntegerInput("Enter item number to add to order: ", 1, items.Count);
+
+                if (itemIndex >= 1 && itemIndex <= items.Count)
                 {
-                    if (itemIndex >= 1 && itemIndex <= items.Count)
-                    {
-                        _currentOrder.AddItem(items[itemIndex - 1]); // adding in current order
+                    _currentOrder.AddItem(items[itemIndex - 1]); // adding in current order as index sarts from 0
 
-                        Console.WriteLine("\nWould you like to:");
-                        Console.WriteLine("1. Add another item from this category");
-                        Console.WriteLine("2. Switch to another category");
+                    Console.WriteLine("\nWould you like to:");
+                    Console.WriteLine("1. Add another item from this category");
+                    Console.WriteLine("2. Switch to another category");
 
-                        int nextChoice = InputValidator.GetValidIntegerInput("Enter your choice: ",1,2);
+                    int nextChoice = InputValidator.GetValidIntegerInput("Enter your choice: ", 1, 2);
 
-                        switch (nextChoice)
-                        {
-                            case 1:
-                                continue;
-                            case 2:
-                                viewingCategory = false; // stops the loop 
-                                break;
-                            default:
-                                Console.WriteLine("Invalid choice. Returning to category menu.");
-                                break;
-                        }
-                    }
-                    else if (itemIndex == items.Count + 1)
+                    switch (nextChoice)
                     {
-                        viewingCategory = false;
+                        case 1:
+                            continue;
+                        case 2:
+                            viewingCategory = false; // stops the loop 
+                            break;
+                        default:
+                            Console.WriteLine("Invalid choice. Returning to category menu.");
+                            break;
                     }
-                    else
-                    {
-                        Console.WriteLine("Invalid item number. Please try again.");
-                    }
+                }
+                else if (itemIndex == items.Count + 1)
+                {
+                    viewingCategory = false;
                 }
                 else
                 {
-                    Console.WriteLine("Invalid input. Please enter a number.");
+                    Console.WriteLine("Invalid item number. Please try again.");
                 }
+
             }
         }
 

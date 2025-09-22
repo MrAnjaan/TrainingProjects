@@ -56,15 +56,6 @@ namespace Assignment7FoodMenuApplication.HelpingClass
         }
 
 
-
-        //Reads only yes or no input
-        //public static bool ValidateYesNoInput(string input)
-        //{
-        //    if (string.IsNullOrEmpty(input))
-        //        return false;
-
-        //    string lowerInput = input.ToLower();
-        //    return lowerInput == "y" || lowerInput == "yes" || lowerInput == "n" || lowerInput == "no";
-        //}
+ 
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Assignment7FoodMenuApplication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0af0ba224c1ad647b1b7e0de1dde4789956149ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+05d855d5d73d8fe3bfff863e55559a604bfa1af7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Assignment7FoodMenuApplication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Assignment7FoodMenuApplication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
