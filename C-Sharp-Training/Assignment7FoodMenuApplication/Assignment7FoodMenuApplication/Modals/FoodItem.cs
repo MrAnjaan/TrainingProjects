@@ -22,6 +22,7 @@ namespace Assignment7FoodMenuApplication.Modals
             Category = category;
         }
 
+        // for displaing info of each food item
         public  string GetDisplayInfo()
         {
             return $"{Name} - ${Price:F2}";

@@ -130,6 +130,8 @@ namespace Assignment7FoodMenuApplication
                 Console.WriteLine($"\n===== {category} MENU =====");
                 var items = _menuItems[category];
 
+
+                // showing menu food items with their prices
                 for (int i = 0; i < items.Count; i++)
                 {
                     Console.WriteLine($"{i + 1}. {items[i].GetDisplayInfo()}");
@@ -233,7 +235,6 @@ namespace Assignment7FoodMenuApplication
             Console.WriteLine("\nOrder confirmed! Thank you for your purchase.");
             Console.WriteLine("Your order will be prepared shortly.");
         }
-
 
 
         // Cancels order , clears the list and exits the program

@@ -11,6 +11,8 @@ namespace Assignment7FoodMenuApplication.Modals
 {
     public static class MenuData
     {
+
+        // returns the deictionary of items of a categories
         public static Dictionary<FoodCategory, List<IFoodItem>> GetMenuItems()
         {
             return new Dictionary<FoodCategory, List<IFoodItem>>
@@ -67,6 +69,8 @@ namespace Assignment7FoodMenuApplication.Modals
             };
         }
 
+
+        // Returns the list of the names of the categories in main
         public static List<FoodCategory> GetCategories()
         {
             return new List<FoodCategory>
@@ -79,16 +83,6 @@ namespace Assignment7FoodMenuApplication.Modals
             };
         }
 
-        //public static string GetCategoryDisplayName(FoodCategory category)
-        //{
-        //    return category switch
-        //    {
-        //        FoodCategory.Starters => "Starters",
-        //        FoodCategory.Chinese => "Chinese",
-        //        FoodCategory.MainCourse => "Main Course",
-        //        FoodCategory.Desserts => "Desserts",
-        //        _ => category.ToString()
-        //    };
-        //}
+       
     }
 }
